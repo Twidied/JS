@@ -91,3 +91,17 @@ for(let marca of marcas) {
 
     console.log(`La marca es: ${marca}`);
 }
+
+console.clear();
+
+try {
+    let resultado = new Array(-1);
+    console.log(resultado);
+} catch(error) {
+    console.log(`Se produjo un error en: ${error}`);
+} finally {
+    console.log('Siempre me ejecuto!');
+
+}
+
+console.log('Continuacion del flujo de la aplicacion');
